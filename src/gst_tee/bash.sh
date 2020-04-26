@@ -1,0 +1,2 @@
+#!/bin/bash
+./gst-launch-1.0 -v uridecodebin uri="http://129.226.132.155/audio/tiantiande.mp3" ! tee name=t  t. ! queue ! audioconvert ! wavescope ! videoconvert ! autovideosink t.! queue ! audioconvert ! audioresample ! autoaudiosink 
