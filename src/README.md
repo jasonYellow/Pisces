@@ -8,5 +8,5 @@ uridecodebin、audioconvert、audioresample、autoaudiosink
 4.gst_seek: gst_element_query_position、gst_element_query_duration、gst_element_seek_simple、gst_query_new_seeking、gst_element_query、gst_query_parse_seeking  
 5.gst_gtk  
 6.gst_tee:gst_element_class_get_pad_template、gst_element_request_pad、gst_element_get_static_pad、gst_element_release_request_pad  
-tee、queue、wavescope、videoconvert、autovideosink
+tee、queue、wavescope、videoconvert、autovideosink  
 7.gst_audio:gst_registry_feature_filter、gst_element_factory_get_klass、gst_element_factory_get_longname、gst_element_factory_create  
